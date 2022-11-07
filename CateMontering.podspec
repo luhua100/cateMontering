@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CateMontering'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CateMontering.'
+  s.summary          = '一款监听应用程序卡顿的工具类'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  一款监听应用程序卡顿的工具类 默认超过3秒就认为是卡顿
                        DESC
 
   s.homepage         = 'https://github.com/luhua100/CateMontering'
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'luhua100' => 'luhua2245@163.com' }
   s.source           = { :git => 'https://github.com/luhua100/CateMontering.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_versions = '5.0'
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'CateMontering/Classes/**/*'

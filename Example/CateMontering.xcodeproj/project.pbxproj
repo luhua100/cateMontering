@@ -42,10 +42,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		616DE5B58DCF76D10B824730 /* Pods-CateMontering_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CateMontering_Example.release.xcconfig"; path = "Target Support Files/Pods-CateMontering_Example/Pods-CateMontering_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6E4FE2CEC8C661D499189445 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		98473A6CB1473DD5953151E9 /* CateMontering.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CateMontering.podspec; path = ../CateMontering.podspec; sourceTree = "<group>"; };
+		6E4FE2CEC8C661D499189445 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		98473A6CB1473DD5953151E9 /* CateMontering.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CateMontering.podspec; path = ../CateMontering.podspec; sourceTree = "<group>"; };
 		CF317E68A9BB45615E37FA56 /* Pods_CateMontering_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CateMontering_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE41432CEC5CA1973BAABE01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EE41432CEC5CA1973BAABE01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EEB1BFD246CEC7586328BABC /* Pods-CateMontering_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CateMontering_Tests.release.xcconfig"; path = "Target Support Files/Pods-CateMontering_Tests/Pods-CateMontering_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				2DC41FCA2A660D02678B584A /* Pods-CateMontering_Tests.debug.xcconfig */,
 				EEB1BFD246CEC7586328BABC /* Pods-CateMontering_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

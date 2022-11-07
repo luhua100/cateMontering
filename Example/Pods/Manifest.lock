@@ -1,0 +1,16 @@
+PODS:
+  - CateMontering (0.1.0)
+
+DEPENDENCIES:
+  - CateMontering (from `../`)
+
+EXTERNAL SOURCES:
+  CateMontering:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CateMontering: d9a4302bc28a34ae7d7b2eba0e15bb789d6bcae9
+
+PODFILE CHECKSUM: c7db4dd7b1356b71c8d4b2aa58985704c1efb9b9
+
+COCOAPODS: 1.11.2

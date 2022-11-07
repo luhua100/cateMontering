@@ -1,0 +1,6 @@
+framework module CateMontering {
+  umbrella header "CateMontering-umbrella.h"
+
+  export *
+  module * { export * }
+}
