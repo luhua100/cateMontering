@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CateMontering_Example' do
+  pod 'CateMontering', :path => '../'
+
+  target 'CateMontering_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
